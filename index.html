@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Личный сайт и блог программиста nikyotodev. Заметки о программировании, веб-разработке и личных проектах." />
+    <title>nikyotodev — Личный сайт</title>
+
+    <!-- Предзагрузка критических шрифтов и изображений -->
+    <link rel="preload" as="font" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" crossorigin />
+    <link rel="preload" as="image" href="https://sun9-79.userapi.com/impg/atLs9Bs4WbUN9S36NnNjezi9VJMveCaFvdO-Sw/o2hXCRL4C-c.jpg?size=1280x720&quality=95&sign=0dc28f69fd3bf80cf2bbd8f5eace38ee&type=album" />
+    <link rel="preload" as="image" href="https://sun9-56.userapi.com/impg/buBqW6ydvyVJBYoTPYhhX55YSo6H060h6WW8dA/3c2aOAdgx5Y.jpg?size=1024x1024&quality=95&sign=42611c9ef47bd3716a0cf0ce573112f8&type=album" />
+    <link rel="preload" as="image" href="https://sun9-40.userapi.com/impg/yxF5XT-6fUN-LzdgZMmOhqur22EDC-EdN1pPag/cDPWaLdRwsE.jpg?size=301x300&quality=95&sign=96be5bbc9402b69f79b9029c36b6ca9f&type=album" />
+    <link rel="preload" as="image" href="https://sun9-11.userapi.com/impg/L7hzTFmuktNXqHILlFF_BZw_cIIp4vyPQLwvpQ/8bM8e_JEIPg.jpg?size=1000x1000&quality=95&sign=280292e4b530942d32c4aecab73fe696&type=album" />
+    <link rel="preload" as="image" href="https://sun9-23.userapi.com/impg/16M6FGZgs1aQLhD9F8CwTAH3-QwaswFGkZxl3w/bXrtv3uSjxE.jpg?size=1042x980&quality=95&sign=9c8c9874758883c7e1cf49017bab94c0&type=album" />
+
+    <!-- Шрифты -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet" />
+
+    <!-- Базовые стили для оптимизации CLS -->
+    <style>
+      body {
+        background-color: #0b151a;
+        color: #dadada;
+        font-family: 'Roboto Mono', monospace;
+        padding: 0;
+        margin: 0;
+        font-size: 16px;
+        line-height: 1.5;
+      }
+      .skeleton {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(90deg, #0b151a 25%, #152028 50%, #0b151a 75%);
+        background-size: 200% 100%;
+        animation: loading 1.5s infinite;
+        z-index: -100;
+      }
+      @keyframes loading {
+        0% {
+          background-position: 0% 0;
+        }
+        100% {
+          background-position: -200% 0;
+        }
+      }
+      .loaded .skeleton {
+        display: none;
+      }
+    </style>
+
+    <!-- Open Graph и Twitter -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://nikyotodev.ru/" />
+    <meta property="og:title" content="nikyotodev - curriculum vitae" />
+    <meta property="og:description" content="Личный сайт и блог nikyotodev (nikyoto). Портфолио, резюме и заметки программиста. Ретро-стиль, веб-разработка, IT и кодинг." />
+    <meta property="og:image" content="https://sun9-56.userapi.com/impg/buBqW6ydvyVJBYoTPYhhX55YSo6H060h6WW8dA/3c2aOAdgx5Y.jpg?size=1024x1024&quality=95&sign=42611c9ef47bd3716a0cf0ce573112f8&type=album" />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://nikyotodev.ru/" />
+    <meta property="twitter:title" content="nikyotodev - curriculum vitae" />
+    <meta property="twitter:description" content="Личный сайт и блог nikyotodev (nikyoto). Портфолио, резюме и заметки программиста. Ретро-стиль, веб-разработка, IT и кодинг." />
+    <meta property="twitter:image" content="https://sun9-56.userapi.com/impg/buBqW6ydvyVJBYoTPYhhX55YSo6H060h6WW8dA/3c2aOAdgx5Y.jpg?size=1024x1024&quality=95&sign=42611c9ef47bd3716a0cf0ce573112f8&type=album" />
+
+    <link rel="icon" type="image/png" href="https://sun9-56.userapi.com/impg/buBqW6ydvyVJBYoTPYhhX55YSo6H060h6WW8dA/3c2aOAdgx5Y.jpg?size=1024x1024&quality=95&sign=42611c9ef47bd3716a0cf0ce573112f8&type=album" />
+    <script type="module" crossorigin src="./assets/index-CvMTLbLs.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/react-D1It5uYK.js">
+    <link rel="modulepreload" crossorigin href="./assets/scheduler-C323NY8X.js">
+    <link rel="modulepreload" crossorigin href="./assets/react-dom-Dn3JeMaJ.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-hlpkfgi6.css">
+  </head>
+  <body>
+    <div class="skeleton"></div>
+    <div id="root"></div>
+
+    <!-- Подключаем точку входа React-приложения -->
+
+    <script>
+      window.addEventListener('load', function () {
+        document.body.classList.add('loaded');
+      });
+
+      document.addEventListener('DOMContentLoaded', function () {
+        function preloadImage(url) {
+          const img = new Image();
+          img.src = url;
+        }
+
+        setTimeout(() => {
+          preloadImage('https://i.pinimg.com/736x/24/8d/6a/248d6a3129dbd7f17b93d821c17c8c91.jpg');
+          preloadImage('https://wallpapers.com/images/high/pastel-pixel-stars-tumblr-background-pc7cb8jixuj50gfm-2.png');
+          preloadImage('https://sun9-14.userapi.com/impg/uhfnJfKN-NXueY-uIxBYN3p8oOWSsM7ZuroVRg/1sIQEc2Z09o.jpg?size=800x800&quality=95&sign=bf75d024c12504c02533ea3a6bc333d6&type=album');
+          preloadImage('https://sun9-49.userapi.com/impg/F9-F4SL8JnZ8o-JVMQ1s-KoUDHQAry5XuRCj7A/Tbo_DU7pwuc.jpg?size=1170x700&quality=95&sign=ae061fbcaf2d940bc79b6a1fbdd5d0b5&type=album');
+        }, 1000);
+      });
+    </script>
+  </body>
+</html>
