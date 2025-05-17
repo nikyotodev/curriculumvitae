@@ -5,8 +5,8 @@
 [![Last Commit](https://img.shields.io/github/last-commit/nikyotodev/curriculumvitae)](https://github.com/nikyotodev/curriculumvitae/commits/main)
 [![GitHub Stars](https://img.shields.io/github/stars/nikyotodev/curriculumvitae?style=social)](https://github.com/nikyotodev/curriculumvitae/stargazers)
 
-<!-- Сюда можно добавить баннер или скриншот -->
-<!-- Например: ![Скриншот сайта](URL_СКРИНШОТА) -->
+![Скриншот сайта nikyotodev](https://sun9-9.userapi.com/impg/taeaYliYNiCscUN-jJYGun6rWEv8jID82lMgGw/jL3H_EMd-MA.jpg?size=2560x1920&quality=95&sign=7e5bcaffd7c073d9834cd286d05fdb1e&type=album)
+
 
 Это мой личный сайт-портфолио и блог, разработанный для демонстрации моих проектов, навыков и мыслей. Сайт выполнен в ретро-стилистике с современными веб-эффектами.
 
